@@ -96,7 +96,7 @@ export default function HomePage() {
           </h1>
 
           <p className={styles.heroSubtitle}>
-            Helping you find or sell your home with confidence and ease. Steve Hummer Homes delivers personalized service, expert guidance, and proven results.
+            Let me help you find your way home. Steve Hummer Homes delivers personalized service, expert guidance, and proven results.
           </p>
 
           <div className={styles.heroCtas}>
@@ -202,7 +202,7 @@ export default function HomePage() {
             <div className={styles.whyContent}>
               <span className="section-eyebrow">Why Steve Hummer Homes</span>
               <h2 className={`section-title section-title-white`}>
-                Experience the Difference of True Expertise
+                Let me help you find your way home
               </h2>
               <div className="gold-divider" />
               <p className={`section-subtitle section-subtitle-white`}>
@@ -289,7 +289,7 @@ export default function HomePage() {
           ========================================================= */}
       <section id="cta-banner" className={styles.ctaBanner} aria-label="Call to action">
         <div className="container">
-          <h2 className={styles.ctaBannerTitle}>Ready to Find Your Dream Home?</h2>
+          <h2 className={styles.ctaBannerTitle}>Let me help you find your way home</h2>
           <p className={styles.ctaBannerSubtitle}>
             Let&apos;s start your real estate journey today. Contact Steve for a free, no-obligation consultation.
           </p>
