@@ -8,7 +8,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import styles from '@/styles/Header.module.css';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
+  { href: '/home', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/listings', label: 'Listings' },
   { href: '/contact', label: 'Contact' },
@@ -55,8 +55,8 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={`${styles.navLink} ${(link.href === '/' ? pathname === '/' : pathname.startsWith(link.href))
-                  ? styles.navLinkActive
-                  : ''
+                ? styles.navLinkActive
+                : ''
                 }`}
             >
               {link.label}
@@ -95,8 +95,8 @@ export default function Header() {
             key={link.href}
             href={link.href}
             className={`${styles.mobileNavLink} ${(link.href === '/' ? pathname === '/' : pathname.startsWith(link.href))
-                ? styles.mobileNavLinkActive
-                : ''
+              ? styles.mobileNavLinkActive
+              : ''
               }`}
           >
             {link.label}
