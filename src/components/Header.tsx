@@ -8,7 +8,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import styles from '@/styles/Header.module.css';
 
 const navLinks = [
-  { href: '/home', label: 'Home' },
+  { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/listings', label: 'Listings' },
   { href: '/contact', label: 'Contact' },
