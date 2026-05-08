@@ -42,7 +42,7 @@ const journeyMilestones = [
   { year: '2008', label: 'Started Real Estate Career' },
   { year: '2013', label: '100 Homes Sold Milestone' },
   { year: '2019', label: 'Award-Winning Agent' },
-  { year: '2024', label: '500+ Homes Sold' },
+  { year: '2024', label: '100+ Homes Sold' },
 ];
 
 export default function AboutPage() {
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 <div className={styles.bioBadge}>
                   <div className={styles.bioBadgeIcon}><FaAward size={20} /></div>
                   <div className={styles.bioBadgeText}>
-                    <span className={styles.bioBadgeNum}>500+</span>
+                    <span className={styles.bioBadgeNum}>100+</span>
                     <span className={styles.bioBadgeLabel}>Homes Sold</span>
                   </div>
                 </div>

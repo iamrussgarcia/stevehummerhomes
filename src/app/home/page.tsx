@@ -123,9 +123,9 @@ export default function HomePage() {
         <div className="container">
           <div className={styles.statsGrid}>
             {[
-              { number: '500+', label: 'Homes Sold' },
+              { number: '100+', label: 'Homes Sold' },
               { number: '5+', label: 'Years Experience' },
-              { number: '98%', label: 'Client Satisfaction' },
+              { number: '100%', label: 'Client Satisfaction' },
               { number: '$200M+', label: 'In Sales Volume' },
             ].map((stat) => (
               <div key={stat.label} className={styles.statItem}>
