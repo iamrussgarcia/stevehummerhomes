@@ -35,12 +35,12 @@ const credentials = [
   'Accredited Buyer\'s Representative',
   'Certified Negotiation Expert',
   'National Association of Realtors Member',
-  'Cadwell Realty Group',
+  'Cadwell Realty Group powered by JMG',
 ];
 
 const journeyMilestones = [
   { year: '2008', label: 'Started Real Estate Career' },
-  { year: '2013', label: '100 Homes Sold Milestone' },
+  { year: '2013', label: '20 Homes Sold Milestone' },
   { year: '2019', label: 'Award-Winning Agent' },
   { year: '2024', label: '100+ Homes Sold' },
 ];
@@ -96,7 +96,7 @@ export default function AboutPage() {
             <div className={styles.bioContent}>
               <span className="section-eyebrow">Meet Your Agent</span>
               <h2 className={styles.bioName}>Steve Hummer</h2>
-              <p className={styles.bioTitle}>Licensed Real Estate Professional · Cadwell Realty Group</p>
+              <p className={styles.bioTitle}>Licensed Real Estate Professional · Cadwell Realty Group powered by JMG</p>
               <div className="gold-divider" />
 
               <p className={styles.bioParagraph}>
@@ -162,11 +162,11 @@ export default function AboutPage() {
       {/* =========================================================
           JOURNEY TIMELINE
           ========================================================= */}
-      <section id="about-journey" className={`${styles.journeySection} section-padding`} aria-label="Career journey">
+      {/* <section id="about-journey" className={`${styles.journeySection} section-padding`} aria-label="Career journey">
         <div className="container">
           <div className="text-center">
             <span className="section-eyebrow">Career Milestones</span>
-            <h2 className={`section-title section-title-white`}>A Proven Track Record</h2>
+            <h2 className={`section-title section-title-white`}>Cadwell Realty Group powered by JMG</h2>
             <div className="gold-divider gold-divider-center" />
           </div>
 
@@ -180,7 +180,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* =========================================================
           ABOUT CTA

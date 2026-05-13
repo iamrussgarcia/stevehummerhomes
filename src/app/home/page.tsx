@@ -126,7 +126,7 @@ export default function HomePage() {
               { number: '100+', label: 'Homes Sold' },
               { number: '5+', label: 'Years Experience' },
               { number: '100%', label: 'Client Satisfaction' },
-              { number: '$200M+', label: 'In Sales Volume' },
+              { number: '$50M+', label: 'In Sales Volume' },
             ].map((stat) => (
               <div key={stat.label} className={styles.statItem}>
                 <span className={styles.statNumber}>{stat.number}</span>
@@ -175,7 +175,7 @@ export default function HomePage() {
         <div className="container">
           <div className="text-center">
             <span className="section-eyebrow">Browse Properties</span>
-            <h2 className="section-title">Find Your Perfect Home</h2>
+            <h2 className="section-title">Helping you find your way home</h2>
             <div className="gold-divider gold-divider-center" />
             <p className="section-subtitle" style={{ margin: '0 auto 2.5rem' }}>
               Explore available listings and find the property that fits your lifestyle and budget.
